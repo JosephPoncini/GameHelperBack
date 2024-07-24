@@ -9,11 +9,6 @@ CORS(app)  # This will enable CORS for all routes
 def home():
     return "Welcome to the Flask API!"
 
-# @app.route('/api/wordle_get_data/<word>/<code>', methods=['GET'])
-# def wordle_get_data(word, code):
-#     word_bank = request.args.getlist('word_bank')
-#     return jsonify(get_wordle_data(word, code, word_bank))
-
 @app.route('/api/wordle_get_data', methods=['POST'])
 def wordle_get_data():
     data = request.get_json()  # Get JSON data from request body
