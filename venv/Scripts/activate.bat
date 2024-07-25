@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Desktop\CodeStack Academy\PassionProjects\GameHelperBack\venv
+set VIRTUAL_ENV=C:\Users\csa_jponcini\Desktop\Projects\Passion Project\GameHelperBack\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
